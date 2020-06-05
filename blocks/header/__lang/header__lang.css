@@ -1,0 +1,4 @@
+.header__lang {
+  flex-direction: row;
+  display: flex;
+}

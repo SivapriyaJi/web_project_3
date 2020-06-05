@@ -1,0 +1,7 @@
+.video__container {
+  max-width: 1184px;
+  max-height: 323px;
+  display: grid;
+  grid-template-columns: 583px 583px;
+  grid-column-gap: 18px;
+}

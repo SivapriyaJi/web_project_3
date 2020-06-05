@@ -1,0 +1,18 @@
+.places__url {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  transition-duration: .5s;
+}
+
+.places__url:hover {
+  opacity: 0.8;
+}
+
+

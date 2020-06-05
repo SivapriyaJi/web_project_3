@@ -1,0 +1,19 @@
+@import url(./_en/header__link_en.css);
+
+.header__link {
+  margin-left: 18px;
+  max-width: 30px;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+}
+
+
+@media screen and (max-width: 375px) {
+  .header__link {
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 18px;
+    max-width: 21px;
+    }
+  }
