@@ -20,6 +20,13 @@
   }
 }
 
+@media screen and (max-width: 425px) {
+  .footer__columns {
+    width: 400px;
+    display: inline-block;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer__columns {
     width: 300px;

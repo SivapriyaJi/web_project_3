@@ -36,10 +36,16 @@
   }
 }
 
+@media screen and (max-width: 425px) {
+  .places__place {
+    grid-template-columns: 390px;
+    grid-row-gap: 32px;
+    margin-top: 48px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .places__place {
     grid-template-columns: 320px;
-    grid-row-gap: 32px;
-    margin-top: 48px;
   }
 }
