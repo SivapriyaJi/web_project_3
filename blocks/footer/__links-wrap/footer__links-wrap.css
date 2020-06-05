@@ -9,9 +9,6 @@
 @media screen and (max-width: 320px) {
   .footer__links-wrap {
     flex-direction: column;
-    display: flex;
-    align-content: space-between;
-    padding: 0;
     margin-top: 0;
     margin-bottom: 32px;
   }
