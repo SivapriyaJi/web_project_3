@@ -10,8 +10,7 @@ Enjoy great images from the journey, along with fun facts and resources.
 **Images, Facts, & Resources**
 This website implements a combinations of grid and flexbox for a clean layout, along with media queries for responsiveness, coded with html and css. Hover effects have been implemented for a dynamic experience.
 
-https://sivapriyaji.github.io/web_project_3/ - automatic!
 
-[link to Web Project 3!](https://sivapriyaji.github.io/web_project_3/)
+[Link to Web Project 3!](https://sivapriyaji.github.io/web_project_3/)
 
 
