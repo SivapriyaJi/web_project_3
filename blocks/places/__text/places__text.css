@@ -12,6 +12,10 @@
   margin-right: 0;
 }
 
+.places__text:last-of-type {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 768px) {
   .places__text {
     font-size: 16px;

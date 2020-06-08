@@ -1,4 +1,6 @@
 .places__text-container {
+  grid-area: description;
+  align-self: start;
   max-width: 484px;
   margin: 0;
   padding: 0;
@@ -6,20 +8,26 @@
 
 @media screen and (max-width: 1024px) {
   .places__text-container {
-    max-width: 456px;
+    max-width: 100%;
+
   }
 }
-
-@media screen and (max-width: 768px) {
+/*
+@media screen and (max-width: 928px) {
   .places__text-container {
-    max-width: 352px;
+    max-width: calc(100% - 24px*2);
+    margin-left: auto;
+    margin-right: auto;
   }
-}
+}*/
 
-@media screen and (max-width: 320px) {
+
+
+@media screen and (max-width: 500px) {
   .places__text-container {
-    max-width: 288px;
-    margin: 0 auto 0 auto;
+    max-width: calc(100% - 16px*2);
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

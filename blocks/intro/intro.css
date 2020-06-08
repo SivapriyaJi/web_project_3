@@ -3,9 +3,11 @@
 @import url(./__content/intro__content.css);
 @import url(./__container/intro__container.css);
 @import url(./__data/intro__data.css);
+@import url(./__span/intro__span.css);
 
 .intro {
  margin-bottom: 92px;
+ font-family: "Inter", Arial, sans-serif;
 }
 
 @media screen and (max-width: 768px) {

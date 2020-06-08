@@ -1,4 +1,4 @@
-@import url(./__place/places__place.css);
+@import url(./__card/places__card.css);
 @import url(./__text/places__text.css);
 @import url(./__title/places__title.css);
 @import url(./__url-heading/places__url-heading.css);
@@ -6,36 +6,44 @@
 @import url(./__text-container/places__text-container.css);
 @import url(./__url-container/places__url-container.css);
 @import url(./__url/places__url.css);
-@import url(./__text/_last/places__text_last.css);
-
 
 .places {
-  margin-right: auto;
-  margin-left: auto;
+  margin: 92px auto 0 auto;
   max-width: 985px;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    max-width: 928px;
+   /*max-width: 928px;*/
+    max-width: calc(100% - 48px*2);
   }
 }
+/*
+@media screen and (max-width: 928px) {
+  .places {
+    max-width: calc(100% - 48px*2);
+  }
+}*/
 
 @media screen and (max-width: 768px) {
   .places {
-    max-width: 720px;
+    margin-top: 88px;
+    max-width: 93.75%;
+
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   .places {
-    max-width: 390px;
+    margin-top: 78px;
+    max-width: 100%;
   }
 }
 
 
 @media screen and (max-width: 320px) {
   .places {
+    margin-top: 64px;
     max-width: 320px;
   }
 }

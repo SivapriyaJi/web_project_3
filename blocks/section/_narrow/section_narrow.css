@@ -6,28 +6,26 @@
 
 @media screen and (max-width: 1140px) {
 .section_narrow {
-max-width: calc(100% - 48px*2);
-
+  max-width: calc(100% - 48px*2);
 }
 }
 
 @media screen and (max-width: 984px) {
 .section_narrow {
-max-width: calc(100% - 24px*2);
+  max-width: calc(100% - 24px*2);
+}
+}
 
-}
-}
 
 @media screen and (max-width: 568px) {
 .section_narrow {
-max-width: calc(100% - 16px*2);
-
+  max-width: calc(100% - 16px*2);
 }
 }
 
-@media screen and (max-width: 425px) {
+/*@media screen and (max-width: 425px) {
   .section_narrow {
-  max-width: 380px;
+    max-width: calc(100% - 16px*2);
 
   }
   }
@@ -37,4 +35,4 @@ max-width: calc(100% - 16px*2);
   max-width: 288px;
 
   }
-  }
+  }*/

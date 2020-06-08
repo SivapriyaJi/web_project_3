@@ -4,18 +4,26 @@
 @import url(./__caption/lead__caption.css);
 
 .lead {
-  margin-bottom: 92px;
+  font-family: "Inter", Arial, sans-serif;
+  margin: 58px auto 92px auto;
+  max-width: 984px;
 }
 
+@media screen and (max-width: 928px) {
+  .lead {
+    max-width: 100%;
+    margin: 50px auto 82px auto;
+   }
+ }
 
 @media screen and (max-width: 768px) {
  .lead {
-    margin-bottom: 88px;
+    margin: 50px auto 82px auto;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead {
-     margin-bottom: 64px;
+    margin: 50px 0 64px 0;
    }
  }
