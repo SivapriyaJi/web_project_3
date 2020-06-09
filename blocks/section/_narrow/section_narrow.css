@@ -1,5 +1,5 @@
 .section_narrow {
-  width: 985px;
+  max-width: 984px;
   margin-left: auto;
   margin-right: auto;
 }

@@ -1,11 +1,12 @@
 .places__url-container {
   grid-area: url;
   align-self: end;
-  max-width: 456px;
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 560px) {
   .places__url-container {
     display: none;
+    margin: 0;
+    padding: 0;
   }
 }

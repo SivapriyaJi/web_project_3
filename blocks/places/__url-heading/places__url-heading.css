@@ -1,5 +1,4 @@
 .places__url-heading {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -8,8 +7,6 @@
   color: #aaa;
   margin-bottom: 12px;
   padding-bottom:0;
-  max-width: 456px;
-  vertical-align: bottom;
 }
 
 @media screen and (max-width: 768px) {
