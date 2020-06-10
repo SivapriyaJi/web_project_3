@@ -10,31 +10,6 @@
   list-style: none;
 }
 
-/*
-
-@media screen and (max-width: 1024px) {
-  .photo-grid {
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-gap: 14px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .photo-grid {
-    display: grid;
-    grid-template-columns: 352px 352px;
-    grid-gap: 16px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .photo-grid {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-row-gap: 12px;
-  }
-}*/
 
 
 

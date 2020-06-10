@@ -10,44 +10,19 @@
   .section {
     max-width: calc(100% - 48px*2);
   }
-  }
-/*
-@media screen and (max-width: 1024px) {
-  .section {
-    max-width: calc(100% - 48px*2);
-  }
-  }*/
+}
 
 @media screen and (max-width: 768px) {
   .section {
     max-width: calc(100% - 24px*2);
   }
+}
+
+@media screen and (max-width: 425px) {
+  .section {
+    max-width: calc(100% - 16px*2)
   }
+}
 
-  @media screen and (max-width: 425px) {
-    .section {
-      max-width: calc(100% - 16px*2)
-    }
-    }
-
-
-  /*@media screen and (max-width: 425px) {
-    .section {
-      max-width: 400px;
-    }
-    }
-
-  @media screen and (max-width: 375px) {
-    .section {
-      max-width: 343px;
-    }
-    }
-
-    @media screen and (max-width: 320px) {
-      .section {
-        max-width: 288px;
-      }
-      }
-*/
 
 
